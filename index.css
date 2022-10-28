@@ -8,6 +8,17 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color: rgb(255,255,255);
+    font-family: tutorialFontNormal;
+    margin-left:2%;
+}
+.title{
+    text-align: center;
+    border: 2px solid black;
     font-family: tutorialFontBold;
+}
+.introduction{
+    background-color: rgb(235,235,235);
+    padding-left: 0.5%;
+    border-radius: 10px;
 }
