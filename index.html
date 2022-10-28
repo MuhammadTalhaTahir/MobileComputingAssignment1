@@ -59,7 +59,7 @@
     </div>
     <hr>
     <div>
-        <h2>Saving Chnages Locally</h2>
+        <h2>Saving Changes Locally</h2>
         <p>
             Any changes made to the files that are shown through git status can be saved localy using the following command given below.
             -m here stands for message, a message is discription that represents the changes that are made. 
@@ -92,5 +92,29 @@
         <p>Once both of your repos are linked you can repeat the cycle of git add, commit and push as many time through the development process.</p>
     </div>
     <hr>
+    <div>
+        <h2>Branching</h2>
+        <p>
+            Branching are used in collaborative work environment so that different developers can work on different features.
+            By default git creates main/master branch. You can check your current branch by.
+        </p>
+        <div class="code">
+            git branch
+        </div>
+        <img src="./images/branchCheck.PNG" alt="">
+        <p>In order to create a new branch you can use the command below.</p>
+        <div class="code">
+            git checkout -b [branchname]
+        </div>
+        <img src="./images/brachcreation.PNG" alt="">
+        <p>
+            You can switch between branches use the following command.
+        </p>
+        <div class="code">
+            git checkout [branchname to switch to]
+        </div>
+        <img src="./images/branchchanging.PNG" alt="">
+    </div>
+
 </body>
 </html>
