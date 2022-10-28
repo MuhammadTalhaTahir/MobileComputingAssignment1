@@ -1,0 +1,13 @@
+@font-face{
+    font-family: tutorialFontBold;
+    src: url("./Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+@font-face{
+    font-family: tutorialFontNormal;
+    src:url("./Open_Sans/static/OpenSans/OpenSans-Light.ttf")
+}
+
+body{
+    background-color: aliceblue;
+    font-family: tutorialFontBold;
+}
